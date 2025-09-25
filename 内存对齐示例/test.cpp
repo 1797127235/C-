@@ -9,7 +9,7 @@
 class A {
 public:
 	int x;
-	char c;
+	char c
 };
 
 class B {
@@ -34,3 +34,4 @@ int main()
 
 	std::cout << sizeof(b) << std::endl;
 }
+

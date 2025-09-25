@@ -5,6 +5,7 @@ public:
     A(int x)
     {
         _x = x;
+        std::cout << "A(int x)" << std::endl;
     }
     ~A()
     {
@@ -17,8 +18,6 @@ private:
 
 int main()
 {
-    A a(1);
-    A b(2);
-
+    const A& A1 = 2;
     return 0;
 }
